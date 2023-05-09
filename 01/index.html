@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Start</h1>
+    <script>
+        const month = new Date().getMonth();
+
+        switch (month) {
+            case 0:
+            case 1:
+            case 2:
+                console.log("Zima");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                console.log("Jaro");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                console.log("Léto");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                console.log("Podzim");
+                break;
+            default:
+                console.log("Oh shit")            
+        }
+    </script>
+</body>
+</html>
