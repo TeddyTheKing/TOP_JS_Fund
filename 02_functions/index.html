@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Functions Practice</h1>
+    <script>
+        const add7 = num => {
+            return num + 7
+        }
+
+        const multiply = (a, b) => {
+            return a * b
+        }
+
+        function capitalize(slovo) {
+            prvniPismeno = slovo[0].toUpperCase()
+            zbytek = slovo.slice(1).toLowerCase()
+            return prvniPismeno + zbytek
+        }
+
+        function lastLetter(pismeno) {
+            return pismeno.slice(-1)
+        }
+
+        console.log(add7(10))
+        console.log(multiply(3,4))
+        console.log(capitalize("CHUJOVINA"))
+        console.log(lastLetter("avcdef"))
+    </script>
+</body>
+</html>
